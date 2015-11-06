@@ -263,6 +263,7 @@ public class CardboardEye : MonoBehaviour {
     Vector3 localPosition = Application.isPlaying ?
         transform.localPosition : (eye == Cardboard.Eye.Left ? -ipd/2 : ipd/2) * Vector3.right;;
 
+
     // Sync the camera properties.
     camera.CopyFrom(monoCamera);
     camera.cullingMask ^= toggleCullingMask.value;
