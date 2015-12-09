@@ -11,13 +11,11 @@ public class FirstPersonScript : MonoBehaviour {
 
 	public bool isMove = false;
 
-	private CharacterController characterController = null ;
-
-	private bool isTrigger = false;
+	public CharacterController characterController = null ;
 
 	// Use this for initialization
 	void Start () {
-		characterController = this.GetComponent<CharacterController> ();
+		//characterController = this.GetComponent<CharacterController> ();
 
 
 	}
